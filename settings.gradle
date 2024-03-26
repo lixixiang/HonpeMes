@@ -1,0 +1,7 @@
+include ':MPChartLib'
+include ':picure_library'
+include ':ucrop'
+include ':DatePickView'
+include ':zbarlibary'
+include ':app'
+rootProject.name = "HonpeMes"

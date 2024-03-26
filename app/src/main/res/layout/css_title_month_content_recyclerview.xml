@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_l_l_l_l"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <include layout="@layout/include_check_month_day" />
+
+    <include layout="@layout/item_work_title" />
+
+    <include layout="@layout/item_process_record" />
+
+    <include layout="@layout/item_check_repair" />
+
+    <include layout="@layout/item_scrap_replenish" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/content_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+

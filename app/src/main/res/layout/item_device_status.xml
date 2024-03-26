@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_55dp"
+    android:layout_marginBottom="@dimen/_1dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:gravity="left"
+                android:lines="1"
+                android:textColor="@color/black_l"
+                android:textSize="@dimen/_20sp"
+                android:textStyle="bold"
+                tools:text="恒久科技" />
+
+            <TextView
+                android:id="@+id/item_title_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:gravity="left"
+                android:lines="1"
+                android:textSize="@dimen/_12sp"
+                tools:text="恒久科技" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black_l"
+        tools:text="18.32" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lines="1"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black_l"
+        tools:text="18.32" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lines="1"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black_l"
+        android:visibility="gone"
+        tools:text="18.32" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lines="1"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="18.32" />
+
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:lines="1"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="18.32" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

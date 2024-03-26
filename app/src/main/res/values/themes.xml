@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--app 主色-->
+        <item name="colorPrimary">@color/blue_l</item>
+        <item name="colorPrimaryVariant">@color/blue_l</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!--app 次级颜色，通常作为主色的补充-->
+        <item name="colorSecondary">@color/blue_l_l</item>
+        <item name="colorSecondaryVariant">@color/blue_l_l</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--设置系统的取消预览(空白窗口)为true -->
+        <item name="android:windowDisablePreview">true</item>
+        <!--设置背景为透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarNavigationButtonStyle</item>
+        <!--NavigationIcon的宽度-->
+        <item name="toolbarStyle">@style/BaseToolbarStyle</item>
+    </style>
+
+    <color name="un_selector_text">#66000000</color>
+
+    <!--标题栏的样式-->
+    <style name="BaseToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <!--内容距离开始 边距-->
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <!--内容距离 导航按钮 边距-->
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <!--使自定义view可以贴左右的边，多数版本的系统不要下面两句也可以，但少量版本必须加下面的两句-->
+        <item name="android:paddingLeft">16dp</item>
+        <!--右内边距-->
+        <item name="android:paddingRight">16dp</item>
+        <!--最小高度-->
+        <item name="android:minHeight">?actionBarSize</item>
+        <!--高度-->
+        <item name="android:layout_height">?actionBarSize</item>
+        <!--id-->
+        <item name="android:id" tools:ignore="AaptCrash">@+id/toolbar</item>
+        <!--宽度-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="actionMenuTextColor">#000</item>
+    </style>
+    <!--标题栏返回按钮样式-->
+    <style name="ToolbarNavigationButtonStyle" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">16dp</item>
+    </style>
+    <!--对话框透明背景-->
+    <style name="Translucent_NoTitle" parent="android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--提示框背景（透明）-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="LauncherTheme" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/ic_splash</item>
+    </style>
+
+
+
+</resources>

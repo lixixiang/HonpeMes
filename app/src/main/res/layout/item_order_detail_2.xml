@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_16dp"
+    android:layout_marginTop="@dimen/_16dp"
+    android:layout_marginEnd="@dimen/_16dp"
+    android:orientation="vertical"
+    android:padding="@dimen/_10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:padding="@dimen/_10dp"
+            android:text="order"
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textSize="@dimen/_12sp"
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/tv_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textColor="@color/black_l"
+                    android:textSize="@dimen/_12sp"
+                    android:textStyle="bold"
+                    tools:text="text" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="@dimen/_05dp"
+                android:layout_height="@dimen/_30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/grey_l_l_l" />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textSize="@dimen/_12sp"
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/tv_content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textColor="@color/black_l"
+                    android:textSize="@dimen/_12sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/_05dp"
+                android:layout_height="@dimen/_30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/grey_l_l_l" />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textSize="@dimen/_12sp"
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/tv_content3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textColor="@color/black_l"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/_05dp"
+                android:layout_height="@dimen/_30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/grey_l_l_l" />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textSize="@dimen/_12sp"
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/tv_content4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textColor="@color/black_l"
+                    android:textSize="@dimen/_12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:text="变更内容：" />
+
+            <TextView
+                android:id="@+id/tv_change_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_l"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:text="变更内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10dp"
+            android:layout_marginEnd="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:text="变更描述：" />
+
+            <TextView
+                android:id="@+id/tv_change_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:textColor="@color/black_l"
+                android:text="变更描述" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

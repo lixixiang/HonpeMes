@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_sure_cancel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_10dp"
+    android:paddingBottom="@dimen/_10dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_reset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10dp"
+        android:paddingBottom="@dimen/_10dp"
+        android:text="重置"
+        android:textColor="@color/grey_l"
+        app:rv_backgroundColor="@color/white"
+        app:rv_backgroundPressColor="@color/grey_l_l_l"
+        app:rv_cornerRadius="@dimen/_3dp"
+        app:rv_strokeWidth="@dimen/_1dp"
+        app:rv_strokeColor="@color/grey_l_l_l"
+        app:rv_strokePressColor="@color/grey_l_l_l_l"/>
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_sure"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10dp"
+        android:paddingBottom="@dimen/_10dp"
+        android:textColor="@color/white"
+        android:text="确定"
+        app:rv_backgroundColor="@color/blue_l"
+        app:rv_backgroundPressColor="@color/blue_l_l_l"
+        app:rv_cornerRadius="@dimen/_3dp" />
+
+</LinearLayout>

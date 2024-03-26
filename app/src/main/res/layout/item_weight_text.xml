@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_35dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_0"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="日期"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/_05dp"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="设备名称"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/_05dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sp"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="运行"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/_05dp"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textColor="@color/green_l"
+        android:textSize="@dimen/_12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="暂停"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/_05dp"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textColor="@color/yellow_l"
+        android:textSize="@dimen/_12sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="故障"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/_05dp"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textColor="@color/red_l"
+        android:textSize="@dimen/_12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="关机"
+        android:background="@color/white"
+        android:layout_marginEnd="@dimen/_05dp"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textSize="@dimen/_12sp"
+        android:textColor="@color/grey_l"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

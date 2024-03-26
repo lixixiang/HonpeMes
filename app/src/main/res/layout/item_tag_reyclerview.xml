@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_tag_list_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_10dp"
+    android:orientation="vertical"
+    android:padding="@dimen/_10dp"
+    app:rv_backgroundColor="@color/white"
+    app:rv_cornerRadius="@dimen/_10dp">
+
+    <include layout="@layout/item_single_text" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.flyco.roundview.RoundLinearLayout>

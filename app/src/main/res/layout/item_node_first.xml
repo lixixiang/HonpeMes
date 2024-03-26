@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    app:rv_backgroundColor="@color/white"
+    android:padding="@dimen/_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/tv_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sp"
+            android:textColor="@color/grey_l"
+            android:textStyle="bold"
+            android:autoLink="all"
+            tools:text="ddd"/>
+        <TextView
+            android:id="@+id/tv_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sp"
+            android:autoLink="all"
+            android:singleLine="true"
+            android:textColor="@color/grey_l"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="ddd"/>
+
+            <TextView
+                android:id="@+id/tv_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sp"
+                android:textColor="@color/grey_l"
+                android:textStyle="bold"
+                android:autoLink="all"
+                android:visibility="gone"
+                tools:text="ddd"/>
+
+
+
+    </LinearLayout>
+
+
+</com.flyco.roundview.RoundLinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

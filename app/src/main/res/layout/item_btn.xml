@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rv_backgroundColor="@color/blue_l"
+        app:rv_backgroundPressColor="@color/blue_alpha_l_l_l"
+        app:rv_cornerRadius="@dimen/_45dp"
+        android:text="保存"
+        android:gravity="center"
+        android:textSize="@dimen/_14sp"
+        android:textColor="@color/white"
+        android:padding="@dimen/_10dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/_40dp"
+        android:layout_marginBottom="@dimen/_40dp"
+        android:layout_marginStart="@dimen/_40dp"
+        android:layout_marginEnd="@dimen/_40dp"/>
+
+</FrameLayout>

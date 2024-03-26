@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_pie_chart" />
+
+    <include layout="@layout/item_bar_chart" />
+
+    <include layout="@layout/item_line_chart" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="订单统计分析"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/_16sp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_05dp"
+                android:background="@color/grey_l_l_l_l"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="订单组别"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="制作组别"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="订单数量"/>
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="完成数量"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="延期数量"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="报废数量"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/list_sales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35dp"
+                android:background="@color/white"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text=""/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="合计"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+
+                <TextView
+                    android:id="@+id/sum_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="订单数量"/>
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:id="@+id/sum_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="完成数量"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+
+                <TextView
+                    android:id="@+id/sum_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="延期数量"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+                <TextView
+                    android:id="@+id/sum_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/blue_l"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sp"
+                    android:text="报废数量"/>
+
+                <View
+                    android:layout_width="@dimen/_05dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_l_l_l_l" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

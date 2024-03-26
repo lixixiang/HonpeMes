@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rv_cornerRadius="@dimen/_8dp"
+    app:rv_backgroundColor="@color/white"
+    android:padding="@dimen/_10dp"
+    android:layout_marginStart="@dimen/_16dp"
+    android:layout_marginBottom="@dimen/_16dp"
+    android:layout_marginEnd="@dimen/_16dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+
+        <TextView
+            android:id="@+id/item_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+
+        <TextView
+            android:id="@+id/item_2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/item_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+
+        <TextView
+            android:id="@+id/item_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/item_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+
+        <TextView
+            android:id="@+id/item_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/defaultFont"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/grey_l"
+            android:text="机台编码"/>
+
+    </RelativeLayout>
+
+</com.flyco.roundview.RoundLinearLayout>

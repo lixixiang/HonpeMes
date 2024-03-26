@@ -1,0 +1,113 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "com.example.honpemes"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 2
+        versionName "2.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation files('libs\\pinyin4j-2.5.0.jar')
+    implementation project(path: ':zbarlibary')
+    implementation project(path: ':DatePickView')
+    implementation project(path: ':ucrop')
+    implementation project(path: ':picure_library')
+    implementation project(path: ':MPChartLib')
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.core:core:1.3.2'
+
+    //解决api 低的问题
+    implementation 'androidx.multidex:multidex:2.0.0'
+    //butterknife 黄油刀
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    //单Activity框架
+    implementation 'me.yokeyword:fragmentationx:1.0.2'
+    // 基础依赖包，必须要依赖
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+    //新的网络请求
+    implementation 'com.zhouyou:rxeasyhttp:2.1.2'
+    //圆形图片
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    //图片加载类
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    //Log
+    implementation 'com.orhanobut:logger:2.2.0'
+    //发送消息，用于解偶
+    implementation 'org.greenrobot:eventbus:3.2.0'
+
+    //recycleView 帮助类框架
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+
+    implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
+
+    //进度条
+    implementation 'com.kaopiz:kprogresshud:1.0.1'
+
+
+
+    //swiperefreshlayout
+    //需要依赖 androidx.appcompat
+    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
+    implementation  'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
+    implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

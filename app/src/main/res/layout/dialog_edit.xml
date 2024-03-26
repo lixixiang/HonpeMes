@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rv_cornerRadius="@dimen/_10dp"
+    app:rv_backgroundColor="@color/white"
+    android:orientation="vertical">
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="@dimen/_16sp"
+        app:rv_cornerRadius="@dimen/_10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:text="@string/app_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/grey_l_l_l_l"/>
+
+    <com.flyco.roundview.RoundFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:layout_margin="@dimen/_16dp"
+        app:rv_backgroundColor="@color/white"
+        app:rv_cornerRadius="@dimen/_8dp"
+        app:rv_strokeColor="@color/grey_l"
+        app:rv_strokeWidth="@dimen/_05dp">
+
+        <com.example.honpemes.widget.DJEditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/_16dp"
+            android:paddingEnd="@dimen/_16dp"
+            android:hint="在此处修改"
+            android:textSize="@dimen/_14sp"
+            android:textCursorDrawable="@drawable/color_cursor_black"
+            android:background="@android:color/transparent" />
+
+    </com.flyco.roundview.RoundFrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/grey_l_l_l_l"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/_14sp"
+            android:textColor="@color/grey_l_l"
+            android:text="@string/cancel"/>
+
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l_l"/>
+
+        <TextView
+            android:id="@+id/tv_sure"
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/_14sp"
+            android:textColor="@color/black"
+            android:text="@string/sure"/>
+    </LinearLayout>
+
+</com.flyco.roundview.RoundLinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

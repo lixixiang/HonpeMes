@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200dp"
+    android:orientation="vertical">
+
+    <com.flyco.roundview.RoundFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rv_backgroundColor="@color/blue_l">
+
+        <com.flyco.roundview.RoundFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120dp"
+            app:rv_cornerRadius_TL="@dimen/_20dp"
+            app:rv_cornerRadius_TR="@dimen/_20dp"
+            android:layout_gravity="bottom"
+            app:rv_backgroundColor="@color/white"/>
+
+
+        <com.flyco.roundview.RoundLinearLayout
+            android:id="@+id/ll_Portrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@mipmap/image_avatar_1"
+                app:civ_border_color="@android:color/white"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/_8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="@dimen/_14sp"
+                    android:layout_marginStart="@dimen/_20dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:text="修改头像"
+                    android:textColor="@color/grey_l" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_right_grey_24"/>
+
+            </LinearLayout>
+
+
+
+        </com.flyco.roundview.RoundLinearLayout>
+
+
+    </com.flyco.roundview.RoundFrameLayout>
+
+
+
+
+</com.flyco.roundview.RoundFrameLayout>

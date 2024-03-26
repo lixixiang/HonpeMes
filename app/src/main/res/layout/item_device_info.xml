@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_out_send_order"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_55dp"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:visibility="gone"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_1"
+        style="@style/defaultFont"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:layout_gravity="center"
+        android:text="设备" />
+
+    <TextView
+        android:id="@+id/item_2"
+        style="@style/defaultFont"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:singleLine="false"
+        android:layout_gravity="center"
+        android:text="上机时间" />
+
+    <TextView
+        android:id="@+id/item_3"
+        style="@style/defaultFont"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:singleLine="false"
+        android:text="产品名称" />
+
+    <TextView
+        android:id="@+id/item_4"
+        style="@style/defaultFont"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_gravity="center"
+        android:singleLine="false"
+        android:text="生产单号\n零件编号" />
+
+    <TextView
+        android:id="@+id/item_5"
+        style="@style/defaultFont"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:layout_gravity="center"
+        android:text="使用部门\n制作级别" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_right_grey_24"/>
+
+</LinearLayout>
+

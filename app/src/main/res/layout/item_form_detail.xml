@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_10dp"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/grey_l_l_l" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35dp"
+        android:background="@color/grey_alpha4"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+        <TextView
+            android:id="@+id/c_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/_12sp"
+            android:text="国内"/>
+
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+        <TextView
+            android:id="@+id/c_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/_12sp"
+            android:text="机壳组"/>
+
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+
+        <TextView
+            android:id="@+id/c_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="93"/>
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+        <TextView
+            android:id="@+id/c_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4"/>
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+        <TextView
+            android:id="@+id/c_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4.3"/>
+
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+        <TextView
+            android:id="@+id/c_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4.3"/>
+
+        <View
+            android:layout_width="@dimen/_05dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_l_l_l" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_05dp"
+        android:background="@color/grey_l_l_l" />
+
+
+</LinearLayout>

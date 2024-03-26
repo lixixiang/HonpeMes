@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rv_backgroundColor="@color/white"
+    app:rv_cornerRadius="@dimen/_8dp"
+    android:padding="@dimen/_10dp"
+    android:layout_marginTop="@dimen/_10dp"
+    android:layout_marginStart="@dimen/_10dp"
+    android:layout_marginEnd="@dimen/_10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_right_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/iv_director"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal">
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/wrap_font_family_body"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_16sp"
+                android:text="产品名称："/>
+
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/wrap_font_family_body"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_16sp"
+                android:text="产品名称："/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_director"
+            android:layout_width="@dimen/_20dp"
+            android:layout_height="@dimen/_20dp"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_down_black"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_10dp"
+        android:orientation="horizontal">
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/wrap_font_family_body"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_16sp"
+            android:text="生产单号："/>
+
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/wrap_font_family_body"
+            android:textColor="@color/grey_l"
+            android:layout_gravity="end"
+            android:textSize="@dimen/_16sp"
+            android:text="2019-07-18"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_5dp"
+        android:orientation="horizontal">
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_title3"
+            style="@style/wrap_font_family_body"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="订单组别："
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_16sp" />
+
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/wrap_font_family_body"
+            android:textColor="@color/grey_l"
+            android:layout_gravity="end"
+            android:textSize="@dimen/_16sp"
+            android:text="2019-07-18"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_5dp"
+        android:orientation="horizontal">
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_title4"
+            style="@style/wrap_font_family_body"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="下单人员："
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_16sp" />
+
+
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/wrap_font_family_body"
+            android:textColor="@color/grey_l"
+            android:layout_gravity="end"
+            android:textSize="@dimen/_16sp"
+            android:text="2019-07-18"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/wrap_font_family_body"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_16sp"
+                android:text="下单人员："/>
+
+
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_content5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/wrap_font_family_body"
+                android:layout_gravity="end"
+                android:textSize="@dimen/_16sp"
+                android:text="2019-07-18"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/_10dp"
+            android:orientation="horizontal">
+
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_title6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/wrap_font_family_body"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_16sp"
+                android:text="下单人员："/>
+
+
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_content6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/wrap_font_family_body"
+                android:layout_gravity="end"
+                android:textSize="@dimen/_16sp"
+                android:text="2019-07-18"/>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10dp">
+
+            <ImageView
+                android:id="@+id/iv_scan"
+                android:layout_width="@dimen/_45dp"
+                android:layout_height="@dimen/_45dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/iv_scan"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.flyco.roundview.RoundTextView
+                        android:id="@+id/tv_kd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="快递：是"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.flyco.roundview.RoundTextView
+                            android:id="@+id/tv_bg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:text="报关：是"/>
+
+                        <com.flyco.roundview.RoundTextView
+                            android:id="@+id/tv_fee"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:text="收费：是"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.flyco.roundview.RoundTextView
+                    android:id="@+id/tv_reason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10dp"
+                    android:text="ddddddddddddddddddddddddddddddddd"
+                    android:textSize="@dimen/_12sp"
+                    android:textColor="@color/yellow_l"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.flyco.roundview.RoundLinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

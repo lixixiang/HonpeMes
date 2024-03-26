@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.2"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
+            tools:text="H231020031Z01" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                tools:text="2023.11.08" />
+
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5dp"
+                android:layout_marginEnd="@dimen/_5dp"
+                android:layout_weight="2"
+                android:minHeight="@dimen/_40dp"
+                android:orientation="vertical">
+
+                <!-- 上面的 TextView -->
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:text="已出货"
+                    android:textColor="@color/green_l"
+                    android:textSize="@dimen/_12sp"
+                    android:textStyle="bold" />
+
+                <!-- 中间的箭头 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:background="@drawable/line"
+                    android:drawableEnd="@drawable/fragmentation_ic_right"
+                    android:textColor="@color/grey_l"
+                    android:textStyle="bold" />
+
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_delivery_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                tools:text="2023.11.08" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/re_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_buyer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            tools:text="数量：1" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                tools:text="报价金额：0" />
+
+
+            <TextView
+                android:id="@+id/tv_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_12sp"
+                android:layout_gravity="end"
+                android:textStyle="bold"
+                tools:text="采购分类：氧化" />
+
+
+        </FrameLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <RelativeLayout
+        android:id="@+id/re_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_item1_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            tools:text="下单人：陈瑞婷" />
+
+        <TextView
+            android:id="@+id/tv_item1_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            tools:text="报价金额：0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_item1_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pingfangsc_medium"
+                android:textColor="@color/grey_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                tools:text="级别：陈瑞婷" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_item_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_item2_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            tools:text="下单人：陈瑞婷" />
+
+        <TextView
+            android:id="@+id/tv_item2_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="级别：陈瑞婷" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/re_item_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_item3_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            tools:text="申请人：许慧" />
+
+
+        <TextView
+            android:id="@+id/tv_item3_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            tools:text="申请部门：打磨部_国际数码组" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/re_item_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/tv_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            tools:text="特殊事项：打磨部_国际数码组" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_supplier_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:textColor="@color/grey_l"
+        android:textSize="@dimen/_12sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="供应商名称：打磨部_国际数码组" />
+
+</LinearLayout>

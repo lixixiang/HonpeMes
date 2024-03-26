@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">红品MES系统</string>
+    <string name="more" translatable="false">全部</string>
+    <string name="login" translatable="false">手机登录</string>
+    <string name="agree_policy" translatable="false">我已阅读并同意《用户服务协议》和《隐私政策》</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="sure" translatable="false">确定</string>
+    <string name="author" translatable="false">作&#8195;&#8195;者：</string>
+    <string name="sort" translatable="false">分&#8195;&#8195;类：</string>
+    <string name="operator" translatable="false">操&#8194;机&#8194;员：</string>
+    <string name="str_arrows" translatable="false"><![CDATA[>]]></string>
+    <string name="selector" translatable="false">筛选</string>
+    <string name="pickerview_year" translatable="false">年</string>
+    <string name="pickerview_month" translatable="false">月</string>
+    <string name="pickerview_day" translatable="false">日</string>
+    <string name="pickerview_hours" translatable="false">时</string>
+    <string name="pickerview_minutes" translatable="false">分</string>
+    <string name="pickerview_seconds" translatable="false">秒</string>
+    <string name="new_version" translatable="false">检测到新版本:</string>
+
+</resources>

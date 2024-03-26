@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/_30dp"
+        android:textStyle="bold"
+        android:paddingStart="@dimen/_16dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:textColor="@color/grey_l"
+        android:fontFamily="@font/pingfangsc_medium"
+        android:background="@color/grey_alpha3"
+        android:gravity="center_vertical"
+        android:text="ping"/>
+
+    <include layout="@layout/single_recyclerview" />
+
+</LinearLayout>

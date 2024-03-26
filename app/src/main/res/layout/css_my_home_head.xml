@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50dp"
+    android:orientation="horizontal"
+    android:background="@color/blue_l">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_circle"
+                android:layout_width="@dimen/_28dp"
+                android:layout_height="@dimen/_28dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/head_default" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_search"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_marginBottom="@dimen/_5dp"
+            android:layout_marginEnd="@dimen/_10dp"
+            android:layout_weight="7">
+
+
+            <ImageView
+                android:id="@+id/iv_scan"
+                android:layout_width="@dimen/_30dp"
+                android:layout_height="@dimen/_30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_marginEnd="@dimen/_5dp"
+                android:src="@mipmap/ic_scan"/>
+
+            <View
+                android:layout_width="@dimen/_05dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey_l_l_l_l"
+                android:layout_margin="@dimen/_8dp" />
+
+
+            <com.example.honpemes.widget.DJEditText
+                android:id="@+id/et_search_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="@dimen/_10dp"
+                android:paddingEnd="@dimen/_10dp"
+                android:cursorVisible="false"
+                android:background="@android:color/transparent"
+                android:drawablePadding="@dimen/_10dp"
+                android:hint="搜索相关模块"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/black_l"
+                android:textColorHint="@color/grey_l_l"
+                android:textCursorDrawable="@drawable/color_cursor_black"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="@dimen/_28dp"
+                android:layout_height="@dimen/_28dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_marginEnd="@dimen/_5dp"
+                android:src="@mipmap/navigationbar_search"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/grey_l_l_l_l">
+
+    <FrameLayout
+        android:id="@+id/rl_left"
+        android:layout_width="@dimen/_35dp"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/_10dp"
+        android:background="@color/grey_l_l_l_l"
+        android:orientation="vertical">
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#dddddd" />
+        <com.flyco.roundview.RoundTextView
+            android:id="@+id/tv_status"
+            android:layout_width="@dimen/_22dp"
+            android:layout_height="@dimen/_22dp"
+            android:layout_marginTop="25dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            app:rv_backgroundColor="@color/grey_l_l_l"
+            app:rv_cornerRadius="@dimen/_100dp"
+            android:textColor="@color/black"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="@dimen/_12sp" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_right_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/_1dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:autoLink="email|phone|web"
+                tools:text="正在派送途中," />
+
+            <TextView
+                android:id="@+id/tv_1_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="2016-10-12 08:02:18" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:paddingEnd="@dimen/_10dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:autoLink="email|phone|web"
+                tools:text="正在派送途中," />
+
+            <TextView
+                android:id="@+id/tv_2_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="2016-10-12 08:02:18" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

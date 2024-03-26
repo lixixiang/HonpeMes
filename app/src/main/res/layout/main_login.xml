@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.honpemes.widget.wavehead.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150dp"
+        app:mwhCloseColor="@color/blue_l"
+        app:mwhColorAlpha="0.45"
+        app:mwhGradientAngle="45"
+        app:mwhProgress="1"
+        app:mwhStartColor="@color/blue_alpha_l_l_l_l"
+        app:mwhVelocity="1"
+        app:mwhWaveHeight="50dp"
+        app:mwhWaves="MultiWave" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-85dp"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.flyco.roundview.RoundLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginEnd="@dimen/_16dp"
+                    android:layout_marginTop="@dimen/_36dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="13dp"
+                    app:rv_backgroundColor="@color/grey_alpha2">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_account_box_24" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="@dimen/_16dp"
+                        android:background="@color/grey_l"
+                        android:layout_margin="@dimen/_16dp" />
+
+                    <com.example.honpemes.widget.DJEditText
+                        android:id="@+id/et_mobile"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:paddingEnd="@dimen/_16dp"
+                        android:hint="请输入工号"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textColorHint="#999999"
+                        android:textCursorDrawable="@drawable/color_cursor_black"
+                        android:textSize="14sp" />
+
+                </com.flyco.roundview.RoundLinearLayout>
+
+
+
+                <com.flyco.roundview.RoundLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="@dimen/_16dp"
+                    android:layout_marginEnd="@dimen/_16dp"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:paddingLeft="13dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:rv_backgroundColor="@color/grey_alpha2">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_vpn_key_24" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="@dimen/_16dp"
+                        android:background="@color/grey_l"
+                        android:layout_margin="@dimen/_16dp" />
+
+                    <com.example.honpemes.widget.DJEditText
+                        android:id="@+id/et_password"
+                        android:paddingEnd="@dimen/_16dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请输入密码"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="#999999"
+                        android:textCursorDrawable="@drawable/color_cursor_black"
+                        android:textSize="14sp" />
+
+                </com.flyco.roundview.RoundLinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_100dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <com.flyco.roundview.RoundFrameLayout
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40dp"
+                    android:layout_marginStart="@dimen/_50dp"
+                    android:layout_marginEnd="@dimen/_50dp"
+                    android:layout_marginBottom="@dimen/_20dp"
+                    android:gravity="center"
+                    android:text="@string/login"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sp"
+                    app:rv_backgroundColor="@color/blue_l"
+                    app:rv_backgroundPressColor="@color/blue_alpha_l_l"
+                    app:rv_cornerRadius="@dimen/_30dp">
+
+                    <com.flyco.roundview.RoundTextView
+                        android:id="@+id/tv_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableStart="@drawable/ic_baseline_login_24"
+                        android:text="@string/login"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_18sp" />
+                </com.flyco.roundview.RoundFrameLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_is_agree_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="@dimen/_50dp"
+                    android:layout_marginEnd="@dimen/_50dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/ck_agree_policy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_5dp"
+                        android:textSize="@dimen/_10sp"
+                        android:buttonTint="@color/blue_l"/>
+
+                    <TextView
+                        android:id="@+id/tv_policy_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/agree_policy"
+                        android:textColor="@color/grey_l"
+                        android:textSize="@dimen/_10sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

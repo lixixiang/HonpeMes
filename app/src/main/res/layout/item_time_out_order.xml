@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/_10dp"
+    android:layout_marginBottom="@dimen/_10dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="H231020031Z01"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/pingfangsc_medium"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_26dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_order_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2023.11.08"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/pingfangsc_medium"
+                />
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/_48dp"
+                android:layout_marginStart="@dimen/_10dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:orientation="vertical">
+
+                <!-- 上面的 TextView -->
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已出货"
+                    android:textSize="@dimen/_12sp"
+                    android:visibility="invisible"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textColor="@color/green_l"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"/>
+
+                <!-- 中间的箭头 -->
+                <TextView
+                    android:layout_width="@dimen/_100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/line"
+                    android:layout_gravity="center_vertical|end"
+                    android:drawableEnd="@drawable/fragmentation_ic_right"
+                    android:textColor="@color/black_l"
+                    android:textStyle="bold"/>
+
+                <!-- 下面的 TextView -->
+                <TextView
+                    android:id="@+id/tv_out_time_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="延误68天"
+                    android:textSize="@dimen/_12sp"
+                    android:textStyle="bold"
+                    android:visibility="invisible"
+                    android:layout_marginBottom="@dimen/_5dp"
+                    android:fontFamily="@font/pingfangsc_medium"
+                    android:textColor="@color/red_l"
+                    android:layout_gravity="center_horizontal|bottom"/>
+            </FrameLayout>
+
+
+
+            <TextView
+                android:id="@+id/tv_delivery_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2023.11.08"
+                android:textStyle="bold"
+                android:textColor="@color/black_l"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/_12sp"
+                android:fontFamily="@font/pingfangsc_medium"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/tv_buyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="下单人：陈瑞婷"
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+        <TextView
+            android:id="@+id/tv_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="报价金额：0"
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="级别：陈瑞婷"
+                android:textColor="@color/black_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/pingfangsc_medium" />
+
+            <ImageView
+                android:id="@+id/iv_director"
+                android:layout_width="@dimen/_18dp"
+                android:layout_height="@dimen/_18dp"
+                android:layout_marginStart="@dimen/_10dp"
+                android:visibility="gone"
+                android:src="@mipmap/ic_down_black"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/tv_item1_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="下单人：陈瑞婷"
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+        <TextView
+            android:id="@+id/tv_item1_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="报价金额：0"
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_item1_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="级别：陈瑞婷"
+                android:textColor="@color/black_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/pingfangsc_medium" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_item_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/tv_item2_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="下单人：陈瑞婷"
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+            <TextView
+                android:id="@+id/tv_item2_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="级别：陈瑞婷"
+                android:visibility="gone"
+                android:textColor="@color/black_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/pingfangsc_medium" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/re_item_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/tv_item3_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="下单人："
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+
+            <TextView
+                android:id="@+id/tv_item3_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="陈瑞婷"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/orange_l"
+                android:textSize="@dimen/_12sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/pingfangsc_medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/re_item_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/tv_item4_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="下单人："
+            android:textColor="@color/black_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+
+        <TextView
+            android:id="@+id/tv_item4_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="陈瑞婷"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/orange_l"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pingfangsc_medium" />
+
+    </LinearLayout>
+</LinearLayout>

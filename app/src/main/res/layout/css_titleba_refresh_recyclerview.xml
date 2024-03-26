@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_l_l_l_l"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <include layout="@layout/toolbar" />
+
+    <include layout="@layout/include_check_month_day" />
+
+
+
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
+        android:id="@+id/smart_refresh"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:srlEnablePureScrollMode="true"
+       app:srlEnableLoadMore="true"
+       app:srlDragRate="0.15">
+
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/m_recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+
+
+   </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

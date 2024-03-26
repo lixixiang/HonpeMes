@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ck"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_35dp"
+    android:text="前天"
+    android:textSize="@dimen/_12sp"
+    android:textStyle="bold"
+    android:layout_marginEnd="@dimen/_8dp"
+    android:layout_marginBottom="@dimen/_8dp"
+    android:fontFamily="@font/pingfangsc_medium"
+    android:singleLine="true"
+    android:background="@drawable/selector_checkbox_frame"
+    android:textColor="@drawable/selector_txt"
+    android:gravity="center"
+    android:button="@null"/>

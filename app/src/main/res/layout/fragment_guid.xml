@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue_alpha_l">
+
+    <TextView
+        android:id="@+id/splash_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="@dimen/_2dp"
+        android:text="红"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_p"
+        app:layout_constraintRight_toLeftOf="@+id/splash_p"
+        app:layout_constraintTop_toTopOf="@+id/splash_p" />
+
+    <TextView
+        android:id="@+id/splash_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="2dp"
+        android:text="品"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_m"
+        app:layout_constraintRight_toLeftOf="@+id/splash_m"
+        app:layout_constraintTop_toTopOf="@+id/splash_m" />
+
+    <TextView
+        android:id="@+id/splash_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="2dp"
+        android:text="M"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_e"
+        app:layout_constraintRight_toLeftOf="@+id/splash_e"
+        app:layout_constraintTop_toTopOf="@+id/splash_e"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/splash_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:padding="2dp"
+        android:text="E"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/guideline20"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/splash_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="2dp"
+        android:text="S"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_e"
+        app:layout_constraintLeft_toRightOf="@+id/splash_e"
+        app:layout_constraintTop_toTopOf="@+id/splash_e" />
+
+    <TextView
+        android:id="@+id/splash_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="2dp"
+        android:text="系"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_s"
+        app:layout_constraintLeft_toRightOf="@+id/splash_s"
+        app:layout_constraintTop_toTopOf="@+id/splash_s" />
+
+    <TextView
+        android:id="@+id/splash_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="2dp"
+        android:text="统"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_26dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_x"
+        app:layout_constraintLeft_toRightOf="@+id/splash_x"
+        app:layout_constraintTop_toTopOf="@+id/splash_x" />
+
+    <TextView
+        android:id="@+id/splash_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="红品晶英科技有限公司"
+        android:textColor="@color/grey_l_l_l_l"
+        android:textSize="@dimen/_16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="8dp"
+        android:src="@mipmap/log"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/splash_e"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

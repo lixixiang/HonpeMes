@@ -1,0 +1,398 @@
+[
+  {
+    "ico": "m_1_1",
+    "sort": "100",
+    "num": "0",
+    "isEnable": false,
+    "title": "订单管理",
+    "detail": [
+      {
+        "title": "待审核订单",
+        "ico": "m_2_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "生产订单",
+        "ico": "m_2_2",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "订单变更",
+        "ico": "m_2_3",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "订单看板",
+        "ico": "m_2_4",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "订单统计",
+        "ico": "m_2_5",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "超时订单",
+        "ico": "m_2_6",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_2",
+    "sort": "100",
+    "num": "0",
+    "title": "生产管理",
+    "isEnable": true,
+    "detail": [
+      {
+        "title": "项目外发",
+        "ico": "m_3_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "操机指派",
+        "ico": "m_3_22",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "生产进度",
+        "ico": "m_3_2",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "加工记录",
+        "ico": "m_3_3",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "操机工时",
+        "ico": "m_3_4",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "产品品质",
+        "ico": "m_3_5",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "报废补料",
+        "ico": "m_3_6",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_3",
+    "sort": "100",
+    "num": "0",
+    "title": "设备管理",
+    "isEnable": true,
+    "detail": [
+      {
+        "title": "设备信息",
+        "ico": "m_4_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "设备状态",
+        "ico": "m_4_4",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "当前任务",
+        "ico": "m_4_2",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "检修记录",
+        "ico": "m_4_3",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_4",
+    "sort": "100",
+    "num": "0",
+    "title": "仓库管理",
+    "isEnable": true,
+    "detail": [
+      {
+        "title": "库存看板",
+        "ico": "m_5_3",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "产品入库",
+        "ico": "m_5_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "产品出库",
+        "ico": "m_5_2",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_5",
+    "sort": "100",
+    "num": "0",
+    "title": "采购管理",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "外发采购单",
+        "ico": "m_5_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "订单即将超时",
+        "ico": "m_6_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "订单超时",
+        "ico": "m_6_2",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_6",
+    "sort": "100",
+    "num": "0",
+    "title": "研发管理",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "文档",
+        "ico": "m_7_1",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_6",
+    "sort": "100",
+    "num": "0",
+    "title": "品质管理",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "首末件送检",
+        "ico": "m_7_1",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "首末件接收",
+        "ico": "m_7_2",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "首末件检验",
+        "ico": "m_7_3",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "巡检作业",
+        "ico": "m_7_4",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "锁定作业",
+        "ico": "m_7_5",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "QCQ",
+        "ico": "m_7_6",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "作废",
+        "ico": "m_7_7",
+        "num": "0",
+        "isEnable": false
+      }
+    ]
+  },
+  {
+    "ico": "m_1_7",
+    "sort": "100",
+    "num": "0",
+    "title": "售后管理",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "返工",
+        "ico": "m_8_1",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "评价",
+        "ico": "m_8_2",
+        "num": "0",
+        "isEnable": false
+      }
+    ]
+  },
+  {
+    "ico": "m_1_8",
+    "sort": "100",
+    "num": "0",
+    "title": "资料管理",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "客户资料",
+        "ico": "m_9_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "客供资料",
+        "ico": "m_9_2",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "地区资料",
+        "ico": "m_9_3",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "员工资料",
+        "ico": "m_9_4",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_9",
+    "sort": "100",
+    "num": "0",
+    "title": "营业管理",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "询价",
+        "ico": "m_10_1",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "报价",
+        "ico": "m_10_2",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "合同",
+        "ico": "m_10_3",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "客诉",
+        "ico": "m_10_4",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "订单",
+        "ico": "m_10_5",
+        "num": "0",
+        "isEnable": true
+      }
+    ,{
+        "title": "供应商分类",
+        "ico": "m_10_5",
+        "num": "0",
+        "isEnable": true
+      }
+    ]
+  },
+  {
+    "ico": "m_1_9",
+    "sort": "100",
+    "num": "0",
+    "title": "报表看板",
+    "isEnable": false,
+    "detail": [
+      {
+        "title": "订单看板",
+        "ico": "m_11_1",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "电表管理",
+        "ico": "m_11_2",
+        "num": "0",
+        "isEnable": true
+      },
+      {
+        "title": "工单进度",
+        "ico": "m_10_4",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "员工产出",
+        "ico": "m_10_2",
+        "num": "0",
+        "isEnable": false
+      },
+      {
+        "title": "总经理总揽",
+        "ico": "m_10_5",
+        "num": "0",
+        "isEnable": false
+      }
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+

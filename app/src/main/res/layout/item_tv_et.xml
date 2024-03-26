@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/_10dp"
+            android:paddingEnd="@dimen/_10dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="@dimen/_80dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|start"
+                android:text="原密码" />
+
+            <com.example.honpemes.widget.DJEditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="填写旧密码"
+                android:textCursorDrawable="@drawable/color_cursor_black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_05dp"
+            android:background="@color/grey_alpha2" />
+
+</LinearLayout>

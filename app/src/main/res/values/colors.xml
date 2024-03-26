@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用色-->
+    <color name="black">#000000</color>
+    <color name="black_l">#232323</color>
+
+
+    <color name="white">#FFFFFFFF</color>
+    <!--蓝色-->
+    <color name="blue_l">#286CE8</color>
+    <color name="blue_l_l">#3D7CF1</color>
+    <color name="blue_l_l_l">#6E81C3</color>
+    <color name="blue_l_l_l_l">#6389BC</color>
+    <color name="blue_l_l_l_l_l">#EBF7FE</color>
+
+    <color name="blue_alpha_l">#b11e82d2</color>
+    <color name="blue_alpha_l_l">#9026A9FF</color>
+    <color name="blue_alpha_l_l_l">#7a78a2bc</color>
+    <color name="blue_alpha_l_l_l_l">#36276FD3</color>
+    <!--红色-->
+    <color name="red_l">#F61919</color>
+    <color name="red_l_l">#ff5050</color>
+    <color name="red_alpha_l">#60F61919</color>
+    <!--黄色-->
+    <color name="yellow_l">#ff9900</color>
+    <color name="yellow_l_l">#F8C915</color>
+    <color name="yellow_l_l_l">#FFF8E4</color>
+    <color name="yellow_alpha_l">#4FFF9900</color>
+    <!--橙色-->
+    <color name="orange_l">#f97e40</color>
+    <color name="orange_l_l">#FD7E49</color>
+    <color name="orange_l_l_l">#ff8a36</color>
+    <color name="orange_l_l_l_l">#ffbe96</color>
+
+    <color name="tu_yellow">#DECEBE</color>
+    <color name="grey_table2">#fdfdfe</color>
+    <!--灰色-->
+    <color name="grey_l">#686868</color>
+    <color name="grey_l_l">#afafaf</color>
+    <color name="grey_l_l_l">#D0D0D0</color>
+    <color name="grey_l_l_l_l">#F0F0F0</color>
+    <color name="grey_alpha1">#afafaf</color>
+    <color name="grey_alpha2">#4DFFFFFF</color>
+    <color name="grey_alpha3">#80ECEBEB</color>
+    <color name="grey_alpha4">#63ECEBEB</color>
+    <!--绿色-->
+    <color name="green_l">#08971C</color>
+    <color name="green_l_l">#01BA46</color>
+    <color name="green_alpha">#5701BA46</color>
+
+    <color name="zhi">#673AB7</color>
+
+    <color name="qing">#009688</color>
+
+    <color name="colorPrimary">#F44336</color>
+
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+
+    <color name="transparent_bg_1">#20000000</color><!--黑色半透明 一-->
+    <color name="transparent_bg_2">#44000000</color><!--黑色半透明 二-->
+    <color name="transparent_bg_3">#66000000</color><!--黑色半透明 三-->
+    <color name="transparent_bg_4">#70000000</color><!--黑色半透明 四-->
+    <color name="transparent_bg_5">#88000000</color><!--黑色半透明 五-->
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flyco.roundview.RoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center|center_vertical"
+    android:padding="10dp"
+    android:minWidth="50dp"
+    android:orientation="horizontal"
+    app:rv_backgroundColor="@color/black"
+    app:rv_cornerRadius="@dimen/_4dp">
+
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/_14sp" />
+
+</com.flyco.roundview.RoundLinearLayout>

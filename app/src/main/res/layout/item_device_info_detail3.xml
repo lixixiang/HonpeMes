@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_device_info_detail2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/_55dp"
+        android:background="@color/white"
+        android:paddingStart="@dimen/_10dp"
+        android:paddingEnd="@dimen/_10dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/item_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_zxing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/item_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="@dimen/_55dp"
+                android:layout_height="@dimen/_55dp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="4.5"
+          android:paddingStart="@dimen/_10dp"
+          android:paddingEnd="@dimen/_10dp"
+          android:gravity="center_vertical"
+          android:orientation="vertical">
+
+          <TextView
+              android:id="@+id/item_des_content"
+              style="@style/defaultFont"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/blue_l"
+              android:text="描述" />
+
+          <TextView
+              android:id="@+id/item_note"
+              style="@style/defaultFont"
+              android:layout_marginTop="@dimen/_10dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/orange_l"
+              android:text="描述" />
+
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
